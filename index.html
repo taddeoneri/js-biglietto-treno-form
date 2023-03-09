@@ -10,14 +10,18 @@
 <body>
     <div id="user">
         <h1>Calcola il prezzo del tuo biglietto</h1>
-        <!-- <input type="text" name="name" id="nameUser"> -->
-        <input type="number" name="nKm" id="nKm">
-        <input type="number" name="age" id="age">
-        <button class="btnCalc">Calcola</button>
+        <input type="text" name="name" id="name" placeholder="Enter name">
+        <input type="number" name="nKm" id="nKm" placeholder="Enter km">
+        <input type="number" name="age" id="age" placeholder="Enter age">
+        <button class="btnCalc">Ticket</button>
         <!-- <button>Reset</button> -->
     </div>
-    <div id="result">
-        
+    <div class="box d-flex d-none">
+        <div id="result-left">
+        </div>
+
+        <div id="result-right">
+        </div>
     </div>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
