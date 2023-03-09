@@ -48,7 +48,7 @@ buttonCalc.addEventListener('click', function(){
             <td>Standard Ticket</td>
             <td>${carriage}</td>
             <td>${cpCode}</td>
-            <td>${ticketPrice}</td>
+            <td>${ticketPrice} $</td>
         </tr>
     </table>
     `;
